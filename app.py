@@ -14,9 +14,7 @@ def index():
 #flask is a python file executing python functions
 # @ is the decorator
 # when the 
-@app.route('/mike')
-def mike():
-    return render_template('mike.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

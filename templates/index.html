@@ -1,6 +1,19 @@
 {% extends 'base.html' %}
 
-{% block title%} Welcome to the home page {% endblock %}
+{% block title%}  {% endblock %}
 
-{% block body%} Hello world! {% endblock %}
+{% block body%}  
+<img src="{{ url_for('static', filename='images/covid-19_coronavirus_network_of_vectors_by_da-kuk_gettyimages-1213355637_2400x1600-100837132-large.jpg') }}"
+class="responsive">
+<p style="font-size:2vw;">
+    I think that people will generally go back into their comfortable rhythms of being social, being in community, and not wearing masks.
+    I thought that we would have a harder time being comfortable around people but once I started feeling safer and people came out of confinement, it felt normal.
+</p>
+<br>
+<p style="font-size:2vw;"> 
+    Things that will never be the same again are how we decide if things should be in person or not. Many things we have found are great and even better completely virtual.
+    Somethings are definitely meant to be in person. I think we all learned if we like to work remotely or not and what our work style and environment needs to be like.
+    People will never think about remote work the same and be prepared to have a more flexible setup long term.
+</p>
+{% endblock %}
 

@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Noto Sans SC', sans-serif;
+
+}
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+
+  /* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #FFF1DB; }
+.My-Color-Theme-2-hex { color: #E3D0BC; }
+.My-Color-Theme-3-hex { color: #FAE6DC; }
+.My-Color-Theme-4-hex { color: #E3C4BC; }
+.My-Color-Theme-5-hex { color: #FAD2CF; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(255, 241, 219, 1); }
+.My-Color-Theme-2-rgba { color: rgba(227, 208, 188, 1); }
+.My-Color-Theme-3-rgba { color: rgba(250, 230, 220, 1); }
+.My-Color-Theme-4-rgba { color: rgba(227, 196, 188, 1); }
+.My-Color-Theme-5-rgba { color: rgba(250, 210, 207, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(36, 100, 92, 1); }
+.My-Color-Theme-2-hsla { color: hsla(30, 41, 81, 1); }
+.My-Color-Theme-3-hsla { color: hsla(20, 75, 92, 1); }
+.My-Color-Theme-4-hsla { color: hsla(12, 41, 81, 1); }
+.My-Color-Theme-5-hsla { color: hsla(4, 81, 89, 1); }
